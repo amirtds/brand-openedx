@@ -9,7 +9,7 @@
         .logo-holder {
             margin: 15px 0 15px 35px;
             img {
-                height: 21px;
+                height: 80px;
             }
         }
         .menu {
@@ -269,6 +269,7 @@
             }
             .course-info-header {
                 padding: 13px 25px 0 0;
+                margin-top: 10px !important;
                 @include media-breakpoint-down(md) {
                     padding: 4px 0 4px 15px;
                 }
@@ -516,4 +517,12 @@
             color: #374151;
         }
     }
+}
+
+#root .layout .content .nav.nav-tabs a {
+    color: $primary !important;
+}
+
+#root header.customise.learning-header .logo img {
+    height: 80px !important;
 }

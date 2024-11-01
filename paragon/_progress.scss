@@ -36,10 +36,10 @@
                 }
                 .bg-warning-100 {
                     padding: 10px 15px !important;
-                    background: $primary-light !important;
+                    background: $light-dark !important;
                     .h4 {
                         font-size: 14px;
-                        color: $primary;
+                        color: $text-color-primary;
                         font-weight: 600;
                     }
                     svg {
@@ -50,7 +50,7 @@
         }
         >.col-12.col-md-4.p-0.px-md-4, >.col-12.col-md-8.p-0 {
             .bg-light-200.raised-card {
-                background: $primary-light !important;
+                background: $light-dark !important;
                 box-shadow: none !important;
                 .pgn__card-header {
                     .pgn__card-header-content {
@@ -182,4 +182,8 @@
     .popover-body {
         color: white !important;
     }
+}
+
+.course-tabs-navigation+.container-xl>.row>.col-12.col-md-4.p-0.px-md-4 section.mb-4.x-small {
+    background: $light-dark !important;
 }
