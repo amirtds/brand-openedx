@@ -64,3 +64,8 @@
         }
     }
 }
+
+// Hide programs
+a.btn.btn-inverse-primary[href="/dashboard/programs"] {
+    display: none;
+}
