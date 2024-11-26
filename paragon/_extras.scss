@@ -68,5 +68,10 @@
 // Hide links starting with edx.* or openedx.*
 a[href^="https://edx."],
 a[href^="https://openedx."] {
-    display: none;
+    display: none !important;
+}
+
+// hide programs link
+a[href$="/programs"] {
+    display: none !important;
 }
