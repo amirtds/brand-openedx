@@ -75,3 +75,7 @@ a[href^="https://openedx."] {
 a[href$="/programs"] {
     display: none !important;
 }
+
+.help-sidebar {
+    display: none !important;
+}
