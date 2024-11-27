@@ -456,6 +456,7 @@ html {
         }
     }
 }
+
 @import "./header";
 @import "./footer";
 @import "./login";
@@ -468,6 +469,9 @@ html {
 @import "./dates";
 @import "./extras";
 
+#root .learner-variant-header a.mx-auto img {
+    height: 70px !important;
+}
 
 // Including dark theme
 @import "./dark";
