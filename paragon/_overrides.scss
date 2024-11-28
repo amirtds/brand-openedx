@@ -471,3 +471,10 @@ html {
 
 // Including dark theme
 @import "./dark";
+
+
+#root header.customise.learning-header .logo img {
+    height: 65px !important;
+    margin-top: 20px !important;
+    margin-bottom: 10px !important;
+}
