@@ -1,2 +1,38 @@
-// Use this file to set SASS variables for @edx/paragon
-// See _variables.scss in https://github.com/openedx/paragon/blob/master/scss/core/ for reference
+$primary: #0075b4 !default;
+$brand: $primary !default;
+$link-color: $primary !default;
+$black: #000;
+$white: #fff;
+$inline-link-color: $primary;
+
+// common settings
+$container-width: 1230px;
+$border-radius: 3px;
+$font: 'Vazirmatn', sans-serif !important;
+$collapsible-card-spacer-icon: 1.5rem;
+
+// settings for header
+$header-vertical-padding: 30px;
+$header-logo-height: 45px;
+$header-logo-height-mobile: 40px;
+$header-nav-link-color: $primary;
+$header-nav-link-color-hover: darken($primary, 20%);
+
+// settings for footer
+$footer-logo-height: $header-logo-height;
+$footer-bg: #110906;
+$footer-nav-link-color: #fff;
+$footer-nav-link-color-hover: darken($footer-nav-link-color, 20%);
+$footer-support-text-and-logo: #fff;
+$footer-social-link-bg: #d6ae75;
+$footer-social-link-bg-hover: lighten($footer-social-link-bg, 20%);
+
+// settings for cookie banner
+$cookie-banner-cta-base: $primary;
+$cookie-banner-cta-hover: darken($cookie-banner-cta-base, 20%);
+
+// login and regisration pages
+$login-registration-left-bg: #fef6e9;
+
+// default bootstrap variables
+$col-gutter-width: 24px;
